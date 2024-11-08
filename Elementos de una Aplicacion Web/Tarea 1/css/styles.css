@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgba(240, 248, 255, 0.95), rgba(255, 255, 255, 0.9)); 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+    backdrop-filter: blur(5px); 
+  }
+  
+  
+  header {
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px); 
+    max-width: 90%;
+    margin: 20px auto;
+  }
+  
+
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 700;
+    color: #2c3e50; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-out; 
+  }
+  
+  
+  @keyframes fadeIn {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  .section-style {
+    padding: 30px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(6px); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+ 
+  .section-style:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+  }
+  
+
+  h2 {
+    font-size: 2rem;
+    color: #2c3e50; 
+    margin-bottom: 15px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+  }
+  
+ 
+  #products-list, #cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+
+  .product-item, .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+ 
+  .product-item:hover, .cart-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); 
+  }
+  
+
+  .btn-style {
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #3498db; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  .btn-style:hover {
+    background-color: #2980b9; 
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); 
+  }
+  
+
+  footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #7f8c8d; 
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  #checkout-btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #1abc9c; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+
+  #checkout-btn:hover {
+    background-color: #16a085; 
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+  }
+  
